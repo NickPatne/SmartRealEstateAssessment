@@ -1,0 +1,111 @@
+   
+body
+{
+margin: 0;
+padding: 0;
+/* background:url(back2.jpg); */
+background-size: cover;
+font-family: sans-serif;
+}
+.main{
+    width:800px;
+    height:1000px;
+    margin-bottom: -300px;
+}
+
+.loginBox
+{
+position: relative;
+top:15%;
+left:82%;
+transform: translate(-50%,-50%);
+width:450px;
+height:auto;
+
+box-sizing: border-box;
+background: white;
+border-radius:10px;
+padding:80px,40px;
+box-shadow:2px 1px 6px 2px  #bab6b6;
+
+}
+
+
+h2
+{
+margin:0;
+padding:0 0 20px;
+color:#FF0000;
+text-align:center;
+
+}
+.loginBox p
+{
+margin:0;
+padding:0;
+
+
+color:black;
+}
+.loginBox input
+{
+width: 80%;
+color: black;
+
+margin-bottom:15px;
+margin-left:45px;
+}
+
+
+.loginBox input[type="text"],
+.loginBox input[type="password"],
+.loginBox input[type="email"]
+ 
+{
+border:none;
+border-bottom:1px solid black;
+background:transparent;
+outline:none;
+height:40px;
+color:black;
+font-size:16px;
+}
+
+.loginBox input[type="submit"],
+.loginBox input[type="reset"]
+{
+border:none;
+outline:none;
+height:40px;
+color:#fff;
+font-size:16px;
+background:#0693fb;
+cursor:pointer;
+border-radius:30px;
+}
+.loginBox input[type="submit"]:focus
+{
+/* background:#3ad5f0;
+color:#262626;
+transition: 1s ease-in; */
+
+transform: scale(1.26);
+transition: 0.4s ease-in;
+}
+.loginBox input[type="reset"]:hover
+{
+background:#efed40;
+color:#262626;
+}
+
+.myfooter{
+
+    top:90%;
+}
+
+.myuser{
+    position: absolute;
+    left:80%;
+    top:90%;
+    color:red;
+}
